@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/background_light"
+    tools:context="ua.ak.test008depemp.AddDepartmentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:id="@+id/addDF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+        <EditText
+            android:id="@+id/txtDepart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Input Department"
+
+            android:inputType="text">
+
+        </EditText>
+
+
+
+        <Button
+            android:id="@+id/btnAddDep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtDepart"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="add"
+            android:textSize="8pt">
+
+        </Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnAddDep"
+            android:text="@string/hello_blank_fragment" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

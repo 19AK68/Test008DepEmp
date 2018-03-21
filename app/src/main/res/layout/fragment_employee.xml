@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/background_light"
+    tools:context="ua.ak.test008depemp.EmployeeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/mEppActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light">
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Input Name"
+
+            android:inputType="text">
+
+        </EditText>
+
+        <Spinner
+            android:id="@+id/spDep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtName"
+            />
+
+        <!--<EditText-->
+            <!--android:id="@+id/txtDep"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/txtName"-->
+            <!--android:layout_margin="10dp"-->
+
+            <!--android:hint="Input Department"-->
+
+            <!--android:inputType="text">-->
+
+        <!--</EditText>-->
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spDep"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:text="add"
+            android:textSize="8pt">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/tvTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnAdd"
+            android:background="@android:color/background_light"
+            android:text="2 fragment" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

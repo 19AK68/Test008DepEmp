@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.ak.test008depemp.DepartmentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mActivity">
+
+
+        <Button
+            android:id="@+id/btnDep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="Employee"  />
+        <Button
+            android:id="@+id/addDep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:layout_below="@id/btnDep"
+            android:text="Departmant" />
+
+        <Button
+            android:id="@+id/btnList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addDep"
+            android:layout_margin="25dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="View Employee"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnList"
+            android:layout_margin="25dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="Edit Employee" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_below="@id/btnEdit"
+            android:text="View Empoyee" />
+
+    </RelativeLayout>
+
+</FrameLayout>
